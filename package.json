@@ -13,7 +13,6 @@
     "minimist": "^1.1.0",
     "open": "0.0.5"
   },
-  "preferGlobal": true,
   "devDependencies": {
     "tape": "^3.0.3"
   },
