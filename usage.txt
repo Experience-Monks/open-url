@@ -1,0 +1,6 @@
+Usage:
+    open-uri uri
+    
+Examples:
+    open-uri http://google.ca
+    open-uri ~/Documents

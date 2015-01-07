@@ -1,0 +1,45 @@
+{
+  "name": "open-uri",
+  "version": "1.0.0",
+  "description": "CLI to open a URI or path",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "open": "0.0.5"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "bin": {
+    "open-uri": "index.js"  
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "open",
+    "browser",
+    "launch",
+    "browser-launcher",
+    "launcher",
+    "url",
+    "opening",
+    "uri",
+    "link",
+    "href"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/open-uri.git"
+  },
+  "homepage": "https://github.com/Jam3/open-uri",
+  "bugs": {
+    "url": "https://github.com/Jam3/open-uri/issues"
+  }
+}
