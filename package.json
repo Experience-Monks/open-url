@@ -1,5 +1,5 @@
 {
-  "name": "open-uri",
+  "name": "open-url",
   "version": "1.0.0",
   "description": "CLI to open a URI or path",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "tape": "^3.0.3"
   },
   "bin": {
-    "open-uri": "index.js"  
+    "open-url": "index.js"  
   },
   "scripts": {
   },
@@ -35,10 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/open-uri.git"
+    "url": "git://github.com/Jam3/open-url.git"
   },
-  "homepage": "https://github.com/Jam3/open-uri",
+  "homepage": "https://github.com/Jam3/open-url",
   "bugs": {
-    "url": "https://github.com/Jam3/open-uri/issues"
+    "url": "https://github.com/Jam3/open-url/issues"
   }
 }

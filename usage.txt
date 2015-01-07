@@ -1,6 +1,6 @@
 Usage:
-    open-uri uri
+    open-url uri
     
 Examples:
-    open-uri http://google.ca
-    open-uri ~/Documents
+    open-url http://google.ca
+    open-url ~/Documents
