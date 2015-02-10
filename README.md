@@ -2,7 +2,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-A command-line version of [open](https://www.npmjs.com/package/open).
+A command-line version of [opn](https://www.npmjs.com/package/opn).
 
 ## Usage
 
@@ -11,10 +11,11 @@ A command-line version of [open](https://www.npmjs.com/package/open).
 To use:
 
 ```sh
-open-url http://google.ca/
+open-url reddit.com
+open-url https://google.com/
 ```
 
-This will open Google in your browser.
+If a protocol isn't specified, it defaults to `http://`.
 
 ## License
 

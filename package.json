@@ -11,16 +11,16 @@
   },
   "dependencies": {
     "minimist": "^1.1.0",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "opn": "^1.0.1"
   },
   "devDependencies": {
     "tape": "^3.0.3"
   },
   "bin": {
-    "open-url": "index.js"  
+    "open-url": "index.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "open",
     "browser",

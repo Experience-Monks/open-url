@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 var argv = require('minimist')(process.argv.slice(2))
-var launch = require('open')
+var launch = require('opn')
 var path = require('path')
+var parse = require('url').parse
 
 var uri = argv._[0]
 if (!uri || argv.h || argv.help) {
@@ -9,4 +10,10 @@ if (!uri || argv.h || argv.help) {
         .pipe(process.stdout)
 }
 
+if (!parse(uri).protocol)
+    uri = ['http://',uri].join('')
+
 launch(uri)
+
+process.stdin
+    .pipe(process.stdout)
