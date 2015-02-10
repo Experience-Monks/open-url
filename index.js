@@ -10,10 +10,8 @@ if (!uri || argv.h || argv.help) {
         .pipe(process.stdout)
 }
 
-if (!parse(uri).protocol)
+var protocol = parse(uri).protocol
+if (!protocol || protocol.indexOf('localhost')===0)
     uri = ['http://',uri].join('')
 
 launch(uri)
-
-process.stdin
-    .pipe(process.stdout)
